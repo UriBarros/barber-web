@@ -8,7 +8,7 @@ export default function Home(){
     <Head>
       <title>AppNavalha - Seu sistema completo</title>
     </Head>
-    <Flex background = "barber.100">
+    <Flex background="barber.900" height="100vh" justifyContent="center" alignItems="center">
       <Text>Home page</Text>
     </Flex>
     </>

@@ -19,7 +19,17 @@ const colors = {
   }
 }
 
-const theme = extendTheme({ colors })
+const theme = extendTheme({ 
+  colors,
+  styles: {
+    global: {
+      body: {
+        bg: 'barber.900', 
+        color: 'barber.100'
+      }
+    }
+  }
+})
 
 
 function App({ Component, pageProps }: AppProps) {
